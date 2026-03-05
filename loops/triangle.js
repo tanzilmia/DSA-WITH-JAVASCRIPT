@@ -40,18 +40,3 @@ for(let i = 0; i< n; i++){
 
     console.log(row)
 }
-
-let digits = 258963147;
-
-let countDigits = (n)=>{
-    let count = 0;
-    while(n > 0){
-     n =  Math.floor(n/10);
-    count++;
-}
- return count;
-}
-
-
-let result = countDigits(digits)
-console.log("result",result);
